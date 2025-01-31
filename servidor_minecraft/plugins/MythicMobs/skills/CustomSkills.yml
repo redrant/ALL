@@ -1,0 +1,101 @@
+MahoD:
+  Cooldown: 2600
+  Skills:
+  - CancelEvent
+  - state{mid=mahoragaSEMIFINAL;s=adaption;li=3;lo=3} @Self
+  - DELAY 30
+  - title{title="&aDEFENSA";fadeIn=10;stay=60;fadeOut=10} @PlayersInRadius{r=15}  
+  - particlering{particle=reddust;radius=3;points=64;amount=40;hS=1;vS=0;color=#00FF00;yOffset=2;duration=600} @self
+  - attribute{attribute=GENERIC_ARMOR;a=20;duration=300} @self
+  - attribute{attribute=GENERIC_MOVEMENT_SPEED;a=0.15;dur=300} @self
+  - delay 300
+  - CancelEvent
+  - state{mid=mahoragaSEMIFINAL;s=adaption;li=3;lo=3} @Self
+  - DELAY 30
+  - title{title="&cATAQUE";fadeIn=10;stay=60;fadeOut=10} @PlayersInRadius{r=15}
+  - particlering{particle=reddust;radius=3;points=64;amount=40;hS=1;vS=0;color=#FF0000;yOffset=2;duration=600} @self
+  - attribute{attribute=GENERIC_ATTACK_DAMAGE;a=20;dur=150} @self
+  - attribute{attribute=GENERIC_MOVEMENT_SPEED;a=0.26;dur=150} @self
+  - delay 150
+  - CancelEvent
+  - state{mid=mahoragaSEMIFINAL;s=adaption;li=3;lo=3} @Self
+  - DELAY 30
+  - title{title="&9ESPECIAL";fadeIn=10;stay=60;fadeOut=10} @PlayersInRadius{r=15}
+  - particlering{particle=reddust;radius=3;points=64;amount=40;hS=1;vS=0;color=#0000FF;yOffset=2;duration=600} @self
+  - attribute{attribute=GENERIC_ATTACK_KNOCKBACK;a=20;dur=150} @self
+  - attribute{attribute=GENERIC_FOLLOW_RANGE;a=220} @self
+  - attribute{attribute=GENERIC_MOVEMENT_SPEED;a=0.22;dur=150} @self
+  - potion{SLOW;l=2;duration=300} @PlayersInRadius
+  - potion{WEAKNESS;l=2;duration=300} @PlayersInRadius
+  - delay 150
+  - CancelEvent
+  - state{mid=mahoragaSEMIFINAL;s=adaption;li=3;lo=3} @Self
+  - DELAY 30
+  - title{title="&aDEFENSA II";fadeIn=10;stay=60;fadeOut=10} @PlayersInRadius{r=15}  
+  - particlering{particle=reddust;radius=4;points=64;amount=50;hS=1;vS=0;color=#00FF00;yOffset=2;duration=600} @self
+  - attribute{attribute=GENERIC_ARMOR;a=23;dur=300} @self
+  - attribute{attribute=GENERIC_MOVEMENT_SPEED;a=0.17;dur=300} @self
+  - delay 300
+  - CancelEvent
+  - state{mid=mahoragaSEMIFINAL;s=adaption;li=3;lo=3} @Self
+  - DELAY 30
+  - title{title="&cATAQUE II";fadeIn=10;stay=60;fadeOut=10} @PlayersInRadius{r=15}
+  - particlering{particle=reddust;radius=4;points=64;amount=50;hS=1;vS=0;color=#FF0000;yOffset=2;duration=600} @self
+  - attribute{attribute=GENERIC_ATTACK_DAMAGE;a=28;dur=150} @self
+  - attribute{attribute=GENERIC_MOVEMENT_SPEED;a=0.28;dur=150} @self
+  - delay 150
+  - CancelEvent
+  - state{mid=mahoragaSEMIFINAL;s=adaption;li=3;lo=3} @Self
+  - DELAY 30
+  - title{title="&9ESPECIAL II";fadeIn=10;stay=60;fadeOut=10} @PlayersInRadius{r=15}
+  - particlering{particle=reddust;radius=4;points=64;amount=50;hS=1;vS=0;color=#0000FF;yOffset=2;duration=600} @self
+  - attribute{attribute=GENERIC_ATTACK_KNOCKBACK;a=20;dur=150} @self
+  - attribute{attribute=GENERIC_FOLLOW_RANGE;a=220} @self
+  - attribute{attribute=GENERIC_MOVEMENT_SPEED;a=0.22;dur=150} @self
+  - potion{SLOW;l=3;duration=300} @PlayersInRadius
+  - delay 150
+  - CancelEvent
+  - state{mid=mahoragaSEMIFINAL;s=adaption;li=3;lo=3} @Self
+  - DELAY 30
+  - title{title="&aDEFENSA III";fadeIn=10;stay=60;fadeOut=10} @PlayersInRadius{r=15}  
+  - particlering{particle=reddust;radius=5;points=64;amount=60;hS=1;vS=0;color=#00FF00;yOffset=2;duration=600} @self
+  - attribute{attribute=GENERIC_ARMOR;a=27;dur=300} @self
+  - attribute{attribute=GENERIC_MOVEMENT_SPEED;a=0.18;dur=300} @self
+  - delay 300
+  - CancelEvent
+  - state{mid=mahoragaSEMIFINAL;s=adaption;li=3;lo=3} @Self
+  - DELAY 30
+  - title{title="&cATAQUE III";fadeIn=10;stay=60;fadeOut=10} @PlayersInRadius{r=15}
+  - particlering{particle=reddust;radius=5;points=64;amount=60;hS=1;vS=0;color=#FF0000;yOffset=2;duration=600} @self
+  - attribute{attribute=GENERIC_ATTACK_DAMAGE;a=30;dur=150} @self
+  - attribute{attribute=GENERIC_MOVEMENT_SPEED;a=0.30;dur=150} @self
+  - delay 150
+  - CancelEvent
+  - state{mid=mahoragaSEMIFINAL;s=adaption;li=3;lo=3} @Self
+  - DELAY 30
+  - title{title="&9ESPECIAL III";fadeIn=10;stay=60;fadeOut=10} @PlayersInRadius{r=15}
+  - particlering{particle=reddust;radius=5;points=64;amount=60;hS=1;vS=0;color=#0000FF;yOffset=2;duration=600} @self
+  - attribute{attribute=GENERIC_ATTACK_KNOCKBACK;a=20;dur=150} @self
+  - attribute{attribute=GENERIC_FOLLOW_RANGE;a=220} @self
+  - attribute{attribute=GENERIC_MOVEMENT_SPEED;a=0.22;dur=150} @self
+  - potion{SLOW;l=4;duration=300} @PlayersInRadius
+  - delay 150
+  - CancelEvent
+  - state{mid=mahoragaSEMIFINAL;s=adaption;li=3;lo=3} @Self
+  - DELAY 30
+  - title{title="&6&lFULL POWER";fadeIn=10;stay=60;fadeOut=10} @PlayersInRadius{r=15}
+  - particlering{particle=reddust;radius=6;points=64;amount=70;hS=1;vS=0;color=#FFD700;yOffset=2;duration=600} @self
+  - attribute{attribute=GENERIC_ATTACK_DAMAGE;a=38;dur=1200} @self
+  - attribute{attribute=GENERIC_MOVEMENT_SPEED;a=0.32;dur=1200} @self
+  - attribute{attribute=GENERIC_ATTACK_KNOCKBACK;a=51;dur=1200} @self
+  - attribute{attribute=GENERIC_ARMOR;a=30;dur=1200} @self
+  - delay 1600
+MahoA:
+ Skills:
+ - CancelEvent
+ - state{mid=mahoragaSEMIFINAL;s=attak;li=3;lo=3}
+ - DELAY 14
+ - totem{ch=1;onStart=MahoA2;int=1;md=1} @Forward{f=1} 
+MahoA2:
+ Skills:
+ - basedamage{m=1} @PlayersNearOrigin{r=2;sort=NEAREST}

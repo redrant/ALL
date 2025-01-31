@@ -1,0 +1,15 @@
+Star1:
+  Type: ZOMBIFIED_PIGLIN
+  Display: '&l&n&6Star Platinum'
+  Health: 500
+  Damage: 10
+  Skills:
+  - model{mid=ORA} @self ~onSpawn
+  - skill{s=sp1} @Self ~OnSpawn
+  Options:
+    MovementSpeed: 0
+    PreventOtherDrops: true
+    Silent: true
+    NoAI: true
+    invulnerable: true
+    NoGravity: true

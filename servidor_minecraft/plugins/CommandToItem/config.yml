@@ -1,0 +1,46 @@
+# =========================
+# CommandToItem by LMBishop
+# =========================
+#  - Spigot page: https://www.spigotmc.org/resources/19937/
+#  - Default config: https://github.com/LMBishop/CommandToItem/blob/master/src/main/resources/config.yml
+#  - Source code: https://github.com/LMBishop/CommandToItem
+#  - Wiki: https://github.com/LMBishop/CommandToItem/wiki/Configuration
+
+# List items here
+items:
+  artefacto:
+    name: "§x§D§9§D§9§D§9§lA§x§D§E§D§9§C§6§lR§x§E§3§D§A§B§4§lT§x§E§7§D§A§A§1§lE§x§E§C§D§A§8§E§lF§x§F§1§D§A§7§B§lA§x§F§6§D§B§6§9§lC§x§F§A§D§B§5§6§lT§x§F§F§D§B§4§3§lO §x§F§F§E§4§7§2§lS§x§F§F§E§9§8§A§lA§x§F§F§E§D§A§1§lG§x§F§F§F§2§B§9§lR§x§F§F§F§6§D§0§lA§x§F§F§F§B§E§8§lD§x§F§F§F§F§F§F§lO"
+    item: SUGAR
+    lore: 
+     - "§8§m------------------------"
+     - "§6➤ §6§oUsable (Click derecho)"
+     - "§8 - Invocas a Mahoraga en el"
+     - "§8   centro del mapa"
+     - "§8§m------------------------"
+    custommodeldata: 2
+    on-use:
+      commands: 
+        - ""
+        - "mm mobs spawn Mahoraga 1 world,-133,74,-22"
+      cooldown: 120
+      consume: true
+      sound: "WITHER_SPAWN"
+
+# Options here
+options:
+  show-receive-message: true
+  drop-if-full-inventory: false # If true and the player has a full inventory, drop the item at their feet. If false and the player has a full inventory, the item is lost.
+
+# Messages here
+messages:
+  full-inv: "&c%player% doesn't have enough space in their inventory!"
+  give-item: "&6Given &e%player% &6%amount% %item%&6."
+  receive-item: "&6You have been given %amount% %item%&6."
+  receive-item-inventory-full: "&6You have been given %given_amount% %item%&6, but %dropped_amount% dropped at your feet because your inventory is full."
+  cooldown: "&cYou must wait &4%cooldown% &cseconds before using this item again."
+  no-permission: "&cYou cannot use this item."
+  item-list: "&6Items: &e%items%"
+  reload: "&7CommandToItem has been reloaded"
+  player-not-found: "&cThe specified player could not be found."
+  item-not-found: "&cThe item &4%item%&c could not be found."
+  item-limits: "&cPlease enter an amount between &4%min%&c and &4%max%&c."

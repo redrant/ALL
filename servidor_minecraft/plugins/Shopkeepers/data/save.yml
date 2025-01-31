@@ -1,0 +1,46 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyway, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|3337
+'1':
+  uniqueId: 651c2188-1961-4a1c-bc56-28d5d4ba6bd3
+  world: world
+  x: -15
+  y: 81
+  z: 0
+  yaw: 264.86658
+  type: admin
+  name: hola
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:farmer
+    villagerType: minecraft:jungle
+    villagerLevel: 2
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLDEN_SHOVEL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: GOLDEN_PICKAXE
+  snapshots: []
+'2':
+  uniqueId: dd868681-d738-401b-9dba-19987f8f3018
+  world: world
+  x: -10
+  y: 80
+  z: 4
+  yaw: 189.20474
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:armorer
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []

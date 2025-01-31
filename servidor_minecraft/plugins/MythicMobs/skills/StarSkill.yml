@@ -1,0 +1,10 @@
+sp1:
+ Skills:
+ - CancelEvent
+ - state{mid=ORA;s=ataka1;li=3;lo=3;force=true}
+ - DELAY 20
+ - totem{ch=1;onStart=ataka1;int=1;md=1} @Forward{f=1} 
+ - DELAY 6
+ - damage{a=7} @Cone{r=5;f=30}
+ - DELAY 20
+ - remove @Self

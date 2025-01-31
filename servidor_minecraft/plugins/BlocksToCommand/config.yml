@@ -1,0 +1,33 @@
+########################################################################################################
+# Addon mainly made for ExecutableBlocks | ExecutableItems
+# This allows you to get the commands needed for items/blocks section for the plugin mentioned above
+# If have any question feel free to join to this Discord -> https://discord.com/invite/7n8wHXu
+# Made by: Vayk
+########################################################################################################
+
+#Normally set to false, be careful when setting this to true, this can causes MASSIVE lag
+#The amount of commands needed to set more than 50000 blocks is huge. It is recommended to don't change this option.
+OverrideLimit: false
+
+#Default set to NETHERITE_HOE, you can select the tool you'd like to have.
+Tool: NETHERITE_HOE
+
+#Default set by true, it adds the sound of wood.place and stone.place when the blocks are placed.
+BlockSounds: true
+
+#Default set by false, it adds particles in the area selected by the tool
+areaParticles: false
+
+setBlockArgument: keep
+#destroy keep or replace | DEFAULT -> keep
+
+#Additional commands that will be added to the list of commands, for example:
+AdditionalCommands:
+- none #this represents nothing and it helps the plugin to don't delete this line
+#- execute at %player% run playsound minecraft:block.lantern.place block @a %block_x% %block_y% %block_z% 0.5 1
+#- execute at %player% run particle dust 1 1 1 1 %block_x% %block_y% %block_z% 0.3 0.3 0.3 0 10
+
+fourDirections: false
+#The plugin will generate 4 YML of each direction instead of just 1.
+#WHERE YOU LOOK IS IMPORTANT, IT IS RECOMMENDED TO LOOK AT YOUR BUILDING DIRECTLY
+#THIS CAN BREAK THE STAIRS OF YOUR ORIGINAL BUILDING check the wiki for more info, if don't want that just don't touch this option

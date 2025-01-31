@@ -1,0 +1,1 @@
+{"textures":{"0":"modelengine:entity/boss"},"elements":[{"from":[6.175,-8.0,8.0],"to":[9.825,8.0,8.0],"faces":{"south":{"uv":[0.625,2.125,1.09375,4.125],"tintindex":0,"rotation":0,"texture":"#0"},"north":{"uv":[0.0,2.125,0.46875,4.125],"tintindex":0,"rotation":0,"texture":"#0"}}}],"display":{"gui":{"rotation":[30,225,0]}}}

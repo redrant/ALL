@@ -1,0 +1,42 @@
+Mahoraga:
+  Type: SILVERFISH
+  Display: '&l&n&6Mahoraga'
+  Health: 500
+  Damage: 10
+  Skills:
+  - model{mid=mahoragaSEMIFINAL} @self ~onSpawn
+  - skill{s=MahoD}
+  - skill{s=MahoA;sync=true} @Self ~OnAttack
+  Drops:
+  - DIAMOND 1-2 0.5
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    Silent: true
+    PreventBlockInfection: true
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - randomstroll
+  BossBar:
+    Enabled: true
+    Title: '&6MAHORAGA'
+    Color: WHITE
+    Style: SOLID
+    Range: 15
+Cofre:
+  Type: PIG
+  Display: '&l&n&aCofre'
+  Health: 2
+  Skills:
+  - model{mid=cofre1} @self ~onSpawn
+  - effect:particles{p=smoke;amount=10;hS=0;vS=0;y=0} @Self ~onTimer
+  - effect:particles{p=fireworksSpark;amount=100;hS=1;vS=1} @self ~onDamaged
+  Drops:
+  - CofreDrops
+  Options:
+    MovementSpeed: 0
+    NoAi: true
+    Silent: true
+    PreventOtherDrops: true
