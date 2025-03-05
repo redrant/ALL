@@ -13,3 +13,20 @@ Star1:
     NoAI: true
     invulnerable: true
     NoGravity: true
+Deathknighh:
+  Type: SKELETON
+  Display: 'Caballero Rojo'
+  Health: 40
+  Damage: 8
+  Equipament:
+  - IRON_SWORD HAND
+  - IRON_SWORD OFFHAND
+  Skills:
+  - model{mid=caballerojo} @self ~onSpawn
+  Options:
+    PreventSunburn: true
+    PreventOtherDrops: true
+    NoAI: false
+  Faction: Rojo
+  Targets:
+  - Faction:Azul
