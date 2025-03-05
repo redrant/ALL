@@ -19,8 +19,8 @@ CAzul:
   - opendoors
   - meleeattack
   AITargetSelectors:
-  - 0 clear
-  - 1 specificfaction{f=Rojo}
+  - clear
+  - pecificfaction{f=Rojo}
 
 CRojo:
   Type: ZOMBIE

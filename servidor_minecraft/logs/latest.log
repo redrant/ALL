@@ -6368,3 +6368,162 @@ java.lang.IllegalArgumentException: Unsupported class file major version 65
 [23:25:33] [Server thread/INFO]: [Redrant: The difficulty has been set to Peaceful]
 [23:25:36] [Server thread/INFO]: Redrant issued server command: /difficulty easy
 [23:25:36] [Server thread/INFO]: [Redrant: The difficulty has been set to Easy]
+[23:26:49] [Server thread/INFO]: Redrant issued server command: /mm r
+[23:26:49] [Server thread/INFO]: [MythicMobs] Saving plugin data...[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[23:26:49] [Server thread/WARN]: [MythicMobs] ✗[31m[1m Configuration Error in Mob [36mCofre[0m[0m
+[23:26:49] [Server thread/WARN]: [MythicMobs] --| [31mFile: [37m/workspaces/ALL/servidor_minecraft/plugins/MythicMobs/mobs/CustomMobs.yml[0m[0m
+[23:26:49] [Server thread/WARN]: [MythicMobs] --| [35mError Message: [0mError parsing Timer skill, invalid interval specified (must be an integer). AbstractSkill=effect:particles{p=smoke;amount=10;hS=0;vS=0;y=0} @Self ~onTimer[0m[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 13 mobs.[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 9 skills.[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 4 mythic items.[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 drop tables.[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[23:26:49] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading![0m
+[23:27:04] [Server thread/INFO]: Named entity EntityZombie['Caballero Rojo'/1129, uuid='1b679fd9-f344-46c3-84d4-6c1332fd4d9f', l='ServerLevel[world]', x=-8.49, y=-60.00, z=14.84, cpos=[-1, 0], tl=258, v=true] died: Caballero Rojo was slain by Caballero Azul
+[23:27:08] [Server thread/INFO]: Redrant issued server command: /gamemode survival
+[23:27:08] [Server thread/INFO]: [Redrant: Set own game mode to Survival Mode]
+[23:28:06] [Server thread/INFO]: Named entity EntityZombie['Caballero Azul'/1116, uuid='80f0f015-8801-492e-8e64-798f9086fa3b', l='ServerLevel[world]', x=-3.19, y=-60.00, z=2.35, cpos=[-1, 0], tl=1508, v=true] died: Caballero Azul was slain by Caballero Rojo
+[23:28:18] [Server thread/INFO]: Redrant issued server command: /gamemode creative
+[23:28:18] [Server thread/INFO]: [Redrant: Set own game mode to Creative Mode]
+[23:28:29] [Server thread/INFO]: Named entity EntityZombie['Caballero Rojo'/1142, uuid='4cd964b3-bd97-49df-a19c-66f358a3d291', l='ServerLevel[world]', x=-12.71, y=-60.00, z=5.03, cpos=[-1, 0], tl=452, v=true] died: Caballero Rojo was slain by Caballero Azul
+[23:28:48] [Server thread/INFO]: Named entity EntityZombie['Caballero Azul'/1155, uuid='25548a96-5f91-4d21-b6e9-4f3122d49c57', l='ServerLevel[world]', x=-15.12, y=-60.00, z=5.63, cpos=[-1, 0], tl=565, v=true] died: Caballero Azul was slain by Redrant
+[23:28:51] [Server thread/INFO]: Redrant issued server command: /mm r
+[23:28:51] [Server thread/INFO]: [MythicMobs] Saving plugin data...[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[23:28:51] [Server thread/WARN]: [MythicMobs] ✗[31m[1m Configuration Error in Mob [36mCofre[0m[0m
+[23:28:51] [Server thread/WARN]: [MythicMobs] --| [31mFile: [37m/workspaces/ALL/servidor_minecraft/plugins/MythicMobs/mobs/CustomMobs.yml[0m[0m
+[23:28:51] [Server thread/WARN]: [MythicMobs] --| [35mError Message: [0mError parsing Timer skill, invalid interval specified (must be an integer). AbstractSkill=effect:particles{p=smoke;amount=10;hS=0;vS=0;y=0} @Self ~onTimer[0m[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 13 mobs.[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 9 skills.[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 4 mythic items.[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 drop tables.[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[23:28:51] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading![0m
+[23:28:57] [Server thread/INFO]: Redrant issued server command: /gamemode survival
+[23:28:57] [Server thread/INFO]: [Redrant: Set own game mode to Survival Mode]
+[23:29:04] [Server thread/INFO]: Named entity EntityPig['Caballero Azul'/1168, uuid='fc00da3d-f41e-4fab-b653-a56e7cd535c5', l='ServerLevel[world]', x=-13.76, y=-60.00, z=10.51, cpos=[-1, 0], tl=238, v=true] died: Caballero Azul was slain by Caballero Rojo
+[23:29:11] [Server thread/INFO]: Named entity EntityPig['Caballero Rojo'/1181, uuid='d86fb1f7-5291-401f-b100-1a5210cf9340', l='ServerLevel[world]', x=-11.53, y=-60.00, z=1.71, cpos=[-1, 0], tl=357, v=true] died: Caballero Rojo was slain by Redrant
+[23:29:18] [Server thread/INFO]: Named entity EntityPig['Caballero Azul'/1194, uuid='12f042fb-183d-472f-a7dc-ae7720d9431b', l='ServerLevel[world]', x=-7.78, y=-60.00, z=15.37, cpos=[-1, 0], tl=128, v=true] died: Caballero Azul was slain by Redrant
+[23:29:28] [Server thread/INFO]: Named entity EntityPig['Caballero Azul'/1207, uuid='042df3cb-a73b-4ed7-ac3a-bd85eacb34b1', l='ServerLevel[world]', x=-2.10, y=-60.00, z=8.82, cpos=[-1, 0], tl=146, v=true] died: Caballero Azul was slain by Redrant
+[23:30:04] [Server thread/INFO]: Redrant issued server command: /mm r
+[23:30:04] [Server thread/INFO]: [MythicMobs] Saving plugin data...[0m
+[23:30:04] [Server thread/INFO]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[23:30:04] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[23:30:04] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[23:30:04] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[23:30:04] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[23:30:04] [Server thread/WARN]: [MythicMobs] ✗[31m[1m Configuration Error in Mob [36mCofre[0m[0m
+[23:30:04] [Server thread/WARN]: [MythicMobs] --| [31mFile: [37m/workspaces/ALL/servidor_minecraft/plugins/MythicMobs/mobs/CustomMobs.yml[0m[0m
+[23:30:04] [Server thread/WARN]: [MythicMobs] --| [35mError Message: [0mError parsing Timer skill, invalid interval specified (must be an integer). AbstractSkill=effect:particles{p=smoke;amount=10;hS=0;vS=0;y=0} @Self ~onTimer[0m[0m
+[23:30:05] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[23:30:05] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[23:30:05] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[23:30:05] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 13 mobs.[0m
+[23:30:05] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[23:30:05] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[23:30:05] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 9 skills.[0m
+[23:30:05] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[23:30:05] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 4 mythic items.[0m
+[23:30:05] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 drop tables.[0m
+[23:30:05] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[23:30:05] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading![0m
+[23:30:20] [Server thread/INFO]: Named entity EntityPig['Caballero Azul'/1220, uuid='55679c3f-9bad-4605-8490-c5aa6c9b606c', l='ServerLevel[world]', x=-12.52, y=-60.00, z=6.26, cpos=[-1, 0], tl=294, v=true] died: Caballero Azul was slain by Redrant
+[23:30:24] [Server thread/INFO]: Named entity EntityPig['Caballero Rojo'/1233, uuid='5f21e810-00e1-4c27-87f4-5a61b7582b2e', l='ServerLevel[world]', x=-4.22, y=-60.00, z=16.52, cpos=[-1, 1], tl=371, v=true] died: Caballero Rojo was slain by Redrant
+[23:32:31] [Server thread/INFO]: Redrant issued server command: /mm r
+[23:32:31] [Server thread/INFO]: [MythicMobs] Saving plugin data...[0m
+[23:32:31] [Server thread/INFO]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[23:32:31] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[23:32:32] [Server thread/WARN]: [MythicMobs] ✗[31m[1m Configuration Error in Mob [36mCofre[0m[0m
+[23:32:32] [Server thread/WARN]: [MythicMobs] --| [31mFile: [37m/workspaces/ALL/servidor_minecraft/plugins/MythicMobs/mobs/CustomMobs.yml[0m[0m
+[23:32:32] [Server thread/WARN]: [MythicMobs] --| [35mError Message: [0mError parsing Timer skill, invalid interval specified (must be an integer). AbstractSkill=effect:particles{p=smoke;amount=10;hS=0;vS=0;y=0} @Self ~onTimer[0m[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 13 mobs.[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 9 skills.[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 4 mythic items.[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 drop tables.[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[23:32:32] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading![0m
+[23:32:53] [Server thread/INFO]: Named entity EntityCow['Caballero Azul'/1246, uuid='0ad10e4f-3b3f-4d84-9051-22cf0cdf95fe', l='ServerLevel[world]', x=-0.91, y=-60.00, z=26.98, cpos=[-1, 1], tl=403, v=true] died: Caballero Azul was slain by Redrant
+[23:33:13] [Server thread/INFO]: Redrant issued server command: /mm r
+[23:33:13] [Server thread/INFO]: [MythicMobs] Saving plugin data...[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[23:33:13] [Server thread/WARN]: [MythicMobs] ✗[31m[1m Configuration Error in Mob [36mCofre[0m[0m
+[23:33:13] [Server thread/WARN]: [MythicMobs] --| [31mFile: [37m/workspaces/ALL/servidor_minecraft/plugins/MythicMobs/mobs/CustomMobs.yml[0m[0m
+[23:33:13] [Server thread/WARN]: [MythicMobs] --| [35mError Message: [0mError parsing Timer skill, invalid interval specified (must be an integer). AbstractSkill=effect:particles{p=smoke;amount=10;hS=0;vS=0;y=0} @Self ~onTimer[0m[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 13 mobs.[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 9 skills.[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 4 mythic items.[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 drop tables.[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[23:33:13] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading![0m
+[23:33:57] [Server thread/INFO]: Redrant issued server command: /mm mobs killall
+[23:34:03] [Server thread/INFO]: Redrant issued server command: /mm r
+[23:34:03] [Server thread/INFO]: [MythicMobs] Saving plugin data...[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[23:34:03] [Server thread/WARN]: [MythicMobs] ✗[31m[1m Configuration Error in Mob [36mCofre[0m[0m
+[23:34:03] [Server thread/WARN]: [MythicMobs] --| [31mFile: [37m/workspaces/ALL/servidor_minecraft/plugins/MythicMobs/mobs/CustomMobs.yml[0m[0m
+[23:34:03] [Server thread/WARN]: [MythicMobs] --| [35mError Message: [0mError parsing Timer skill, invalid interval specified (must be an integer). AbstractSkill=effect:particles{p=smoke;amount=10;hS=0;vS=0;y=0} @Self ~onTimer[0m[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 13 mobs.[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 9 skills.[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 4 mythic items.[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 drop tables.[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[23:34:03] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading![0m
+[23:34:11] [Server thread/INFO]: Named entity EntityZombie['Caballero Azul'/1285, uuid='46fc4d55-7c47-4885-9bdd-63b8d9bbc54b', l='ServerLevel[world]', x=-14.33, y=-60.00, z=25.50, cpos=[-1, 1], tl=140, v=true] died: Caballero Azul was slain by Caballero Rojo
+[23:35:31] [Server thread/INFO]: Named entity EntityZombie['Caballero Rojo'/1298, uuid='65dce9df-a3c3-4eb6-bebb-a448e085c6bb', l='ServerLevel[world]', x=5.36, y=-59.69, z=121.20, cpos=[0, 7], tl=1722, v=true] died: Caballero Rojo was slain by Redrant
+[23:35:36] [Server thread/INFO]: Redrant issued server command: /gamemode creative
+[23:35:36] [Server thread/INFO]: [Redrant: Set own game mode to Creative Mode]
+[23:35:45] [Server thread/INFO]: Redrant issued server command: /gamerule keepInventory true
+[23:35:45] [Server thread/INFO]: [Redrant: Gamerule keepInventory is now set to: true]
+[23:35:47] [Server thread/INFO]: Redrant issued server command: /kill
+[23:35:47] [Server thread/INFO]: Redrant fell out of the world
+[23:35:47] [Server thread/INFO]: [Redrant: Killed Redrant]
