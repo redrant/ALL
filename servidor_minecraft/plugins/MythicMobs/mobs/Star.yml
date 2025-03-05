@@ -29,35 +29,9 @@ CRojo:
     NoAI: false
     Silent: true
   Faction: Rojo
-  AI:
-   - followPlayer: true
-   - attackTarget: true
   AIGoalSelectors:
-   - 1 meleattack
-   - 2 clear
+  - 0 clear
+  - 1 meleeattack
   AITargetSelectors:
-   - 1 specificfaction{f=Azul}
-   - 2 clear
-CAzul:
-  Type: ZOMBIE
-  Display: 'Caballero Azul'
-  Health: 40
-  Damage: 8
-  Equipament:
-  - IRON_SWORD HAND
-  - IRON_SWORD OFFHAND
-  Skills:
-  - model{mid=caballeazul} @self ~onSpawn
-  Options:
-    PreventSunburn: true
-    PreventOtherDrops: true
-    NoAI: false
-    Silent: true
-  Faction: Azul
-  AI:
-  - followPlayer: true
-  - attackTarget: true
-  AIGoalSelectors:
-  - 1 meleattack
-  AITargetSelectors:
-  - 1 specificfaction{f=Rojo}
+  - 0 clear
+  - 1 specificfaction{f=Azul}
