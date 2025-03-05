@@ -32,6 +32,9 @@ Deathknighh:
   AI:
   - followPlayer: true
   - attackTarget: true
-  Targets:
-  - Faction:Azul
-  - scoreboard:Team=2
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 specificfaction{f=Azul}
