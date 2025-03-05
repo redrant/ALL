@@ -13,25 +13,3 @@ Star1:
     NoAI: true
     invulnerable: true
     NoGravity: true
-CRojo:
-  Type: ZOMBIE
-  Display: 'Caballero Rojo'
-  Health: 40
-  Damage: 8
-  Equipament:
-  - IRON_SWORD HAND
-  - IRON_SWORD OFFHAND
-  Skills:
-  - model{mid=caballerojo} @self ~onSpawn
-  Options:
-    PreventSunburn: true
-    PreventOtherDrops: true
-    NoAI: false
-    Silent: true
-  Faction: Rojo
-  AIGoalSelectors:
-  - 0 clear
-  - 1 meleeattack
-  AITargetSelectors:
-  - 0 clear
-  - 1 specificfaction{f=Azul}

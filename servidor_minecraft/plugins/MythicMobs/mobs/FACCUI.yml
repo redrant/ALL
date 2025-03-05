@@ -1,0 +1,46 @@
+CAzul:
+  Type: ZOMBIE
+  Display: 'Caballero Azul'
+  Health: 40
+  Damage: 8
+  Equipament:
+  - IRON_SWORD HAND
+  - IRON_SWORD OFFHAND
+  Skills:
+  - model{mid=caballeazul} @self ~onSpawn
+  Options:
+    PreventSunburn: true
+    PreventOtherDrops: true
+    Silent: true
+  Faction: Azul
+  AIGoalSelectors:
+  - clear
+  - opendoors
+  - meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 specificfaction{f=Rojo}
+
+CRojo:
+  Type: ZOMBIE
+  Display: 'Caballero Rojo'
+  Health: 40
+  Damage: 8
+  Equipament:
+  - IRON_SWORD HAND
+  - IRON_SWORD OFFHAND
+  Skills:
+  - model{mid=caballerojo} @self ~onSpawn
+  - state{mid=caballerojo;s=ataque;li=3;lo=3;force=true} ~onAttak
+  Options:
+    PreventSunburn: true
+    PreventOtherDrops: true
+    Silent: true
+  Faction: Rojo
+  AIGoalSelectors:
+  - clear
+  - opendoors
+  - meleeattack
+  AITargetSelectors:
+  - clear
+  - specificfaction{f=Azul}
