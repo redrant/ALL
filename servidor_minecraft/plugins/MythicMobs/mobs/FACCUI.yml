@@ -2,12 +2,13 @@ CAzul:
   Type: ZOMBIE
   Display: 'Caballero Azul'
   Health: 40
-  Damage: 8
+  Damage: 7
   Equipament:
   - IRON_SWORD HAND
   - IRON_SWORD OFFHAND
   Skills:
   - model{mid=caballeazul} @self ~onSpawn
+  - skill{s=azul;sync=true} @Self ~OnAttack
   Options:
     PreventSunburn: true
     PreventOtherDrops: true
@@ -31,7 +32,7 @@ CRojo:
   - IRON_SWORD OFFHAND
   Skills:
   - model{mid=caballerojo} @self ~onSpawn
-  - state{mid=caballerojo;s=ataque;li=3;lo=3;force=true} ~onAttak
+  - skill{s=rojo;sync=true} @Self ~OnAttack
   Options:
     PreventSunburn: true
     PreventOtherDrops: true

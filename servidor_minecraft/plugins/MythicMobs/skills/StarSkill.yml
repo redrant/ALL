@@ -8,3 +8,19 @@ sp1:
  - damage{a=7} @Cone{r=5;f=30}
  - DELAY 20
  - remove @Self
+rojo:
+ Skills:
+ - CancelEvent
+ - state{mid=caballerojo;s=ataque;li=3;lo=3;force=true}
+ - DELAY 4
+ - totem{ch=1;onStart=ataque;int=1;md=1} @Target
+ - DELAY 3
+ - damage{a=7} @Target
+azul:
+ Skills:
+ - CancelEvent
+ - state{mid=caballeazul;s=ataque;li=3;lo=3;force=true}
+ - DELAY 4
+ - totem{ch=1;onStart=ataque;int=1;md=1} @Target
+ - DELAY 3
+ - damage{a=7} @Target
