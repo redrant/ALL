@@ -5638,3 +5638,81 @@ java.lang.IllegalArgumentException: Unsupported class file major version 65
 [22:25:15] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
 [22:25:15] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading![0m
 [22:25:16] [Server thread/INFO]: Redrant issued server command: /mm mobs spawn Deathknighh
+[22:26:38] [Server thread/INFO]: Redrant issued server command: /team list Rojo
+[22:28:56] [Server thread/INFO]: Redrant issued server command: /scoreboard objectives add Team dummy "Team"
+[22:28:56] [Server thread/INFO]: [Redrant: Created new objective [Team]]
+[22:29:14] [Server thread/INFO]: Redrant issued server command: /scoreboard players set Redrant Team 2
+[22:29:14] [Server thread/INFO]: [Redrant: Set [Team] for Redrant to 2]
+[22:29:21] [Server thread/INFO]: Redrant issued server command: /scoreboard players set <nombre_jugador> Team 1
+[22:29:21] [Server thread/INFO]: [Redrant: Set [Team] for <nombre_jugador> to 1]
+[22:29:58] [Server thread/INFO]: Redrant issued server command: /mm reload
+[22:29:58] [Server thread/INFO]: [MythicMobs] Saving plugin data...[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[22:29:58] [Server thread/WARN]: [MythicMobs] ✗[31m[1m Configuration Error in Mob [36mCofre[0m[0m
+[22:29:58] [Server thread/WARN]: [MythicMobs] --| [31mFile: [37m/workspaces/ALL/servidor_minecraft/plugins/MythicMobs/mobs/CustomMobs.yml[0m[0m
+[22:29:58] [Server thread/WARN]: [MythicMobs] --| [35mError Message: [0mError parsing Timer skill, invalid interval specified (must be an integer). AbstractSkill=effect:particles{p=smoke;amount=10;hS=0;vS=0;y=0} @Self ~onTimer[0m[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 12 mobs.[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 7 skills.[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 4 mythic items.[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 drop tables.[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[22:29:58] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading![0m
+[22:30:01] [Server thread/INFO]: Redrant issued server command: /mm mobs killall
+[22:30:07] [Server thread/INFO]: Redrant issued server command: /mm mobs spawn Deathknighh
+[22:33:34] [Server thread/INFO]: Redrant issued server command: /mm reload
+[22:33:34] [Server thread/INFO]: [MythicMobs] Saving plugin data...[0m
+[22:33:34] [Server thread/INFO]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[22:33:34] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[22:33:35] [Server thread/WARN]: [MythicMobs] ✗[31m[1m Configuration Error in Mob [36mCofre[0m[0m
+[22:33:35] [Server thread/WARN]: [MythicMobs] --| [31mFile: [37m/workspaces/ALL/servidor_minecraft/plugins/MythicMobs/mobs/CustomMobs.yml[0m[0m
+[22:33:35] [Server thread/WARN]: [MythicMobs] --| [35mError Message: [0mError parsing Timer skill, invalid interval specified (must be an integer). AbstractSkill=effect:particles{p=smoke;amount=10;hS=0;vS=0;y=0} @Self ~onTimer[0m[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 12 mobs.[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 7 skills.[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 4 mythic items.[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 drop tables.[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[22:33:35] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading![0m
+[22:33:39] [Server thread/INFO]: Redrant issued server command: /mm mobs killall
+[22:34:44] [Server thread/INFO]: Redrant issued server command: /mm reload
+[22:34:44] [Server thread/INFO]: [MythicMobs] Saving plugin data...[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] [32m✓[37mSaving Finished[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[22:34:44] [Server thread/WARN]: [MythicMobs] ✗[31m[1m Configuration Error in Mob [36mCofre[0m[0m
+[22:34:44] [Server thread/WARN]: [MythicMobs] --| [31mFile: [37m/workspaces/ALL/servidor_minecraft/plugins/MythicMobs/mobs/CustomMobs.yml[0m[0m
+[22:34:44] [Server thread/WARN]: [MythicMobs] --| [35mError Message: [0mError parsing Timer skill, invalid interval specified (must be an integer). AbstractSkill=effect:particles{p=smoke;amount=10;hS=0;vS=0;y=0} @Self ~onTimer[0m[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 12 mobs.[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 7 skills.[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 4 mythic items.[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 drop tables.[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[22:34:44] [Server thread/INFO]: [MythicMobs] Mythic has finished reloading![0m
+[22:34:46] [Server thread/INFO]: Redrant issued server command: /mm mobs spawn Deathknighh
+[22:35:10] [Server thread/INFO]: Named entity EntityZombie['Caballero Rojo'/446, uuid='6f58d1fd-f07e-4106-800b-2b7c3dd98802', l='ServerLevel[world]', x=7.34, y=-60.00, z=-6.30, cpos=[0, -1], tl=471, v=true] died: Caballero Rojo was slain by Redrant
