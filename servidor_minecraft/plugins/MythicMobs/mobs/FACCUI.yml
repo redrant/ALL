@@ -15,11 +15,9 @@ CAzul:
     Silent: true
   Faction: Azul
   AIGoalSelectors:
-  - clear
   - opendoors
   - meleeattack
   AITargetSelectors:
-  - clear
   - pecificfaction{f=Rojo}
 
 CRojo:
@@ -39,9 +37,7 @@ CRojo:
     Silent: true
   Faction: Rojo
   AIGoalSelectors:
-  - clear
   - opendoors
   - meleeattack
   AITargetSelectors:
-  - clear
   - specificfaction{f=Azul}
